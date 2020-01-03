@@ -1,0 +1,51 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 1700 -y 690 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 1700 -y 710 -defaultsOSRD
+preplace port bclk -pg 1 -lvl 6 -x 1700 -y 410 -defaultsOSRD
+preplace port lrclk -pg 1 -lvl 6 -x 1700 -y 430 -defaultsOSRD
+preplace port mclk -pg 1 -lvl 6 -x 1700 -y 610 -defaultsOSRD
+preplace port adc_dataIn -pg 1 -lvl 0 -x -210 -y 310 -defaultsOSRD
+preplace portBus Outputz -pg 1 -lvl 6 -x 1700 -y 550 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 20 -y 540 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 2 -x 480 -y 690 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 20 -y 210 -defaultsOSRD
+preplace inst IIR_filter_0 -pg 1 -lvl 3 -x 900 -y 720 -defaultsOSRD
+preplace inst R2R_Driver_0 -pg 1 -lvl 5 -x 1540 -y 550 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 4 -x 1270 -y 610 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 4 -x 1270 -y 150 -defaultsOSRD
+preplace inst TOP_Module_0 -pg 1 -lvl 5 -x 1540 -y 420 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 5 -180 320 220 410 N 410 1070 520 1390J
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 3 260 250 700 220 N
+preplace netloc rst_ps7_0_50M_interconnect_aresetn 1 1 1 240 230n
+preplace netloc IIR_filter_0_Y_out 1 3 2 1150 540 1390J
+preplace netloc adc_dataIn_1 1 0 5 NJ 310 NJ 310 NJ 310 1170 420 NJ
+preplace netloc TOP_Module_0_data 1 2 4 720 390 1140 500 1420J 610 1670
+preplace netloc TOP_Module_0_sample_trig 1 2 4 730 400 1090 510 1400J 620 1660
+preplace netloc clk_wiz_0_clk_out1 1 4 2 1410 630 1680J
+preplace netloc TOP_Module_0_lrclk 1 5 1 NJ 430
+preplace netloc TOP_Module_0_bclk 1 5 1 NJ 410
+preplace netloc R2R_Driver_0_data_out 1 5 1 NJ 550
+preplace netloc debug4 1 3 1 1100 120n
+preplace netloc debug2 1 3 1 1080 140n
+preplace netloc debug3 1 3 1 1130 160n
+preplace netloc debug1 1 3 1 1110 180n
+preplace netloc debug5 1 3 1 1160 200n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 -190 440 250 440 710 420 1120
+preplace netloc axi_mem_intercon_M00_AXI 1 2 2 690 80 N
+preplace netloc processing_system7_0_FIXED_IO 1 1 5 270J 430 NJ 430 1060 530 1370J 640 1670J
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 230 540n
+preplace netloc processing_system7_0_DDR 1 1 5 230J 380 NJ 380 1150 490 1380J 690 NJ
+levelinfo -pg 1 -210 20 480 900 1270 1540 1700
+pagesize -pg 1 -db -bbox -sgen -330 0 1840 1400
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_board_cnt":"2",
+   "da_bram_cntlr_cnt":"2",
+   "da_clkrst_cnt":"5",
+   "da_ps7_cnt":"1"
+}

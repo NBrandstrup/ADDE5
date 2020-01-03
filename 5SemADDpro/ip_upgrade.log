@@ -1,0 +1,16 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sat Dec  7 11:26:12 2019
+| Host         : DESKTOP-TLCM21K running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Z_system_TOP_Module_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Z_system_TOP_Module_0_1 from xilinx.com:user:TOP_Module:1.0 (Rev. 1) to xilinx.com:user:I2S:1.0 (Rev. 1)
+

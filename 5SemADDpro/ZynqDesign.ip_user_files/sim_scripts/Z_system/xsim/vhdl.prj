@@ -1,0 +1,17 @@
+vhdl xil_defaultlib  \
+"../../../bd/Z_system/ip/Z_system_rst_ps7_0_50M_0/sim/Z_system_rst_ps7_0_50M_0.vhd" \
+"../../../bd/Z_system/ipshared/1926/src/IIR_Biquad_v2.vhd" \
+"../../../bd/Z_system/ipshared/1926/hdl/IIR_filter_v1_0_S00_AXI.vhd" \
+"../../../bd/Z_system/ipshared/1926/hdl/IIR_filter_v1_0.vhd" \
+"../../../bd/Z_system/ip/Z_system_IIR_filter_0_0/sim/Z_system_IIR_filter_0_0.vhd" \
+"../../../bd/Z_system/ipshared/0484/R2R_Driver.vhd" \
+"../../../bd/Z_system/ip/Z_system_R2R_Driver_0_0/sim/Z_system_R2R_Driver_0_0.vhd" \
+"../../../bd/Z_system/ipshared/927f/src/Transciever.vhd" \
+"../../../bd/Z_system/ipshared/927f/src/Top.vhd" \
+"../../../bd/Z_system/ip/Z_system_TOP_Module_0_1/sim/Z_system_TOP_Module_0_1.vhd" \
+"../../../bd/Z_system/ip/Z_system_system_ila_0_0/bd_0/sim/bd_4c55.vhd" \
+"../../../bd/Z_system/ip/Z_system_system_ila_0_0/bd_0/ip/ip_0/sim/bd_4c55_ila_lib_0.vhd" \
+"../../../bd/Z_system/ip/Z_system_system_ila_0_0/sim/Z_system_system_ila_0_0.vhd" \
+"../../../bd/Z_system/sim/Z_system.vhd" \
+
+nosort
